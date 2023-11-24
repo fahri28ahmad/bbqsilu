@@ -18,8 +18,8 @@
     <li class="nav-item">
       <a class="nav-link" href="<?php echo base_url();?>welcome/pemasukan">
         <i class="mdi mdi-send menu-icon"></i>
-        <span class="menu-title">Penginputan</span>
-      </a>
+        <span class="menu-title">Penginputan BBQ</span>
+      </a> 
     </li>
     <?php if ($user['role_id']==1 || $user['role_id']==3) {?>
     
