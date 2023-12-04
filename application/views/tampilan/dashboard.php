@@ -163,45 +163,8 @@
             </div>
           </div>       
           <div class="row">
-            <div class="col-md-5 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title">Jumlah Yang Nonton</p>
-                  <div class="table-responsive">
-                    <table id="" class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>
-                            Nama Film Dan tanggal
-                          </th>
-                          <th>
-                            Jumlah
-                          </th>
-                          <!-- <th>
-                            Gratis
-                          </th> -->
-                        </tr>
-                      </thead>
-                      <tbody>
-
-                        <?php foreach($jumlahnonton as $df){ $i++;
-                           ?>
-                        <tr>
-                          <!-- <td class="py-1">
-                            <img src="<?php echo base_url();?>/images/faces/face1.jpg" alt="image"/>
-                          </td> -->
-                          <td><?php echo $df->nama_f;?><br><?php echo $df->date;?></td>
-                          <td><?php echo $df->jumlah;?></td>
-
-                        </tr>
-                        <?php }?>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-7 grid-margin stretch-card">
+            
+            <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Member </h4>
@@ -219,7 +182,7 @@
                             No Tlp
                           </th>
                           <th>
-                            Jumlah<br>Nonton
+                            Jumlah<br>BBQ
                           </th>
                           <th>
                             Gratis
@@ -345,7 +308,7 @@
                         <tr>
                             <th>#</th>
                             <th>Nama</th>
-                            <th>Tanggal <br>Dan Film</th>
+                            <!-- <th>Tanggal <br>Dan Film</th> -->
                             <th>Notlp</th>
                             <!-- <th>Sumber</th> -->
                             <!-- <th>Rank</th> -->
@@ -361,7 +324,7 @@
                         <tr>
                             <td><?php echo $v; ?> </td>
                             <td><?php echo $l->nama;?></td>
-                            <td><?php echo $l->date;?><br><?php echo $l->nama_f;?></td>
+                            <!-- <td><?php echo $l->date;?><br><?php echo $l->nama_f;?></td> -->
                             <!-- <td><?php echo $l->tgl_in;?><br><?php echo $l->sumber;?></td> -->
                             <td><?php echo $l->notlp;?></td>
                             <!-- <td><?php echo $l->sumber;?></td> -->

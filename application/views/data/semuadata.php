@@ -43,7 +43,7 @@
                             <th>#</th>
                             <th>Nama</th>
                             <th>No Tlp</th>
-                            <th>Tanggal<br>dan film</th>
+                            <!-- <th>Tanggal<br>dan film</th> -->
                             <!-- <th>Sumber</th> -->
                             <th>Via</th>
                             <!-- <th>Sumber</th> -->
@@ -60,7 +60,7 @@
                             <td><?php echo $l->nama;?></td>
                             <td><?php echo $l->notlp;?></td>
                             <!-- <td><?php echo $l->tgl_in;?><br><?php echo $l->sumber;?></td> -->
-                            <td><?php echo $l->date;?><br><?php echo $l->nama_f;?></td>
+                            <!-- <td><?php echo $l->date;?><br><?php echo $l->nama_f;?></td> -->
                             
                             <!-- <td><?php echo $l->sumber;?></td> -->
                             <td><?php echo $l->metod_p;?></td>
