@@ -21,7 +21,7 @@
         <div class="row no-gutters slider-text justify-content-center align-items-center">
           <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-end">
             <div class="text text-center w-100">
-              <h1 style="font-family: tahoma;color:#000000;-webkit-text-stroke: 1px white;" class="mb-4"><b>MOVIE UNDER <br>THE STAR</b></h1>
+              <h1 style="font-family: tahoma;color:#000000;-webkit-text-stroke: 1px white;" class="mb-4"><b>BARBEQUE<br>SILU</b></h1>
               <h1 style="font-family: tahoma;color:#000000;-webkit-text-stroke: 1px white;" class="mb-4">Segera Pesan sebelum kehabisan!</h1>
               <!-- <p><a href="#" class="btn btn-primary py-3 px-4">PESAN SEKARANG DI BAWAH</a></p> -->
             </div>
@@ -78,23 +78,11 @@
                   </div>
                   <div class="col-lg align-items-end">
                     <div class="form-group">
-                      <label for="#">Film</label>
+                      <label for="#">PAX</label>
                       <div class="form-field">
                         <div class="select-wrap">
-                          <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                          <select name="film" id="film" class="form-control">
-                            <?php foreach($datafilm as $fl){ $i++;
-                           ?>
-                                <option value="<?php echo $fl->id_film;?>"><?php echo $fl->date;?>||<?php echo $fl->nama_f;?></option>
-                                <?php }?>
-                            <!-- <option value="FAST & FURIOUS 9">FAST & FURIOUS 9</option>
-                            <option value="WE HAVE A GHOST">WE HAVE A GHOST</option>
-                            <option value="MEGAN">MEGAN</option>
-                            <option value="Missing">Missing</option>
-                            <option value="Inside">Inside</option>
-                            <option value="The Menu">The Menu</option>
-                            <option value="Ambush">Ambush</option> -->
-                          </select>
+                          <div class="icon"><span class=""></span></div>
+                          <input type="text" class="form-control" name="pax" placeholder="pax" required>
                         </div>
                       </div>
                     </div>
