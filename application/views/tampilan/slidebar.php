@@ -51,7 +51,7 @@
         </ul>
       </div>
     </li> -->
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link" data-toggle="collapse" href="#ui-basic2" aria-expanded="false" aria-controls="ui-basic">
         <i class="mdi mdi-cash-usd menu-icon"></i>
         <span class="menu-title">HOD</span>
@@ -63,8 +63,8 @@
           <li class="nav-item"> <a class="nav-link" href="<?php echo base_url();?>mod/pemasukan">Pemasukan Data MOD</a></li>
         </ul>
       </div>
-    </li>
-    <li class="nav-item">
+    </li> -->
+    <!-- <li class="nav-item">
       <a class="nav-link" data-toggle="collapse" href="#ui-basic3" aria-expanded="false" aria-controls="ui-basic">
         <i class="mdi mdi-database menu-icon"></i>
         <span class="menu-title">WA</span>
@@ -76,7 +76,7 @@
           <li class="nav-item"> <a class="nav-link" href="https://app.watzap.id/">Broadcast</a></li>
         </ul>
       </div>
-    </li>
+    </li> -->
     <li class="nav-item">
       <a class="nav-link" href="<?php echo base_url();?>welcome/userrole">
         <i class="mdi mdi mdi-account-multiple menu-icon"></i>

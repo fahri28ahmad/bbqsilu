@@ -76,27 +76,15 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-6 col-form-label">Waktu dan Film</label>
+                          <label class="col-sm-6 col-form-label">PAX</label>
                           <div class="col-sm-6">
                             <div class="input-group-prepend">
-                              <span class="input-group-text"></span>
-                                <!-- <input type="text" onfocus="this.placeholder = ''" class="form-control" id="exampleInputName1" name="sumber" placeholder="sumber"aria-describedby="basic-addon1" value="<?php echo $data[0]->sumber;?>"> -->
-                                <select name="sumber" placeholder="sumber" class="custom-select" id="inputGroupSelect03" required>
-                                <option value="<?php echo $data[0]->sumber;?>" selected><?php echo $data[0]->date;?> || <?php echo $data[0]->nama_f;?></option>
-                                <option value=""></option>
-                                <?php foreach($datafilm as $fl){ $i++;
-                           ?>
-                                <option value="<?php echo $fl->id_film;?>"><?php echo $fl->date;?>||<?php echo $fl->nama_f;?></option>
+                              <select name="pax" class="custom-select" id="inputGroupSelect01">
+                                <option value="<?php echo $data[0]->pax;?>"><?php echo $data[0]->pax;?></option>
+                                <?php for ($i=1; $i <= 100; $i++) { 
+                                  ?>
+                                  <option value="<?php echo $i;?>"><?php echo $i;?></option>
                                 <?php }?>
-                                <!-- <option value="PLANE">PLANE</option>
-                                <option value="ANT-MAN AND THE WASP: QUANTUMANIA (2023)">ANT-MAN AND THE WASP: QUANTUMANIA</option>
-                                <option value="FAST & FURIOUS 9">FAST & FURIOUS 9</option>
-                                <option value="WE HAVE A GHOST">WE HAVE A GHOST</option>
-                                <option value="MEGAN">MEGAN</option>
-                                <option value="Missing">Missing</option>
-                                <option value="Inside">Inside</option>
-                                <option value="The Menu">The Menu</option>
-                                <option value="Ambush">Ambush</option> -->
                               </select>
                             </div>
                           </div>
@@ -122,22 +110,6 @@
                             <div class="input-group-prepend">
                               <span class="input-group-text"></span>
                                 <input type="text" onfocus="this.placeholder = ''" class="form-control" id="exampleInputName1" name="ket" placeholder="Keterangan"aria-describedby="basic-addon1" value="<?php echo $data[0]->keterangan;?>">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-6 col-form-label">PAX</label>
-                          <div class="col-sm-6">
-                            <div class="input-group-prepend">
-                              <select name="pax" class="custom-select" id="inputGroupSelect01">
-                                <option value="<?php echo $data[0]->pax;?>"><?php echo $data[0]->pax;?></option>
-                                <?php for ($i=1; $i <= 100; $i++) { 
-                                  ?>
-                                  <option value="<?php echo $i;?>"><?php echo $i;?></option>
-                                <?php }?>
-                              </select>
                             </div>
                           </div>
                         </div>

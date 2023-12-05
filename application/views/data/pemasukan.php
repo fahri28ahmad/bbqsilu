@@ -77,24 +77,18 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-6 col-form-label">Film</label>
+                          <label class="col-sm-6 col-form-label">PAX</label>
                           <div class="col-sm-6">
                             <div class="input-group-prepend">
-                              <span class="input-group-text"></span>
-                                <!-- <input type="text" onfocus="this.placeholder = ''" class="form-control" id="exampleInputName1" name="sumber" placeholder="Sumber"aria-describedby="basic-addon1" required > -->
-                                <select name="sumber" placeholder="sumber" class="custom-select" id="inputGroupSelect03" required>
-                                <option value=""></option>
-                                <?php foreach($datafilm as $fl){ $i++;
-                           ?>
-                                <option value="<?php echo $fl->id_film;?>"><?php echo $fl->date;?>||<?php echo $fl->nama_f;?></option>
-<!--                                 <option value="FAST & FURIOUS 9">FAST & FURIOUS 9</option>
-                                <option value="WE HAVE A GHOST">WE HAVE A GHOST</option>
-                                <option value="MEGAN">MEGAN</option>
-                                <option value="Missing">Missing</option>
-                                <option value="Inside">Inside</option>
-                                <option value="The Menu">The Menu</option>
-                                <option value="Ambush">Ambush</option> -->
-                                <?php }?>
+                              <select name="pax" class="custom-select" id="inputGroupSelect01">
+                                <option value="1">1</option>
+                                <option value="2">2</option> 
+                                <option value="3">3</option> 
+                                <option value="4">4</option> 
+                                <option value="5">5</option> 
+                                <option value="6">6</option> 
+                                <option value="7">7</option> 
+                                <option value="8">8</option>
                               </select>
                             </div>
                           </div>
@@ -124,26 +118,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-6 col-form-label">PAX</label>
-                          <div class="col-sm-6">
-                            <div class="input-group-prepend">
-                              <select name="pax" class="custom-select" id="inputGroupSelect01">
-                                <option value="1">1</option>
-                                <option value="2">2</option> 
-                                <option value="3">3</option> 
-                                <option value="4">4</option> 
-                                <option value="5">5</option> 
-                                <option value="6">6</option> 
-                                <option value="7">7</option> 
-                                <option value="8">8</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                      
                     <!-- <button type="submit" class="btn btn-primary mr-2">Simpan</button>
                   </form> -->
                 </div>
